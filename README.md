@@ -62,14 +62,14 @@ The Drupal community
 
 * Writing good commit messages.
 * Correct use of revision control.
-* Git flow, control over when certain features go live, ability to hot fix/cherry pick.
+* [Git flow](http://nvie.com/posts/a-successful-git-branching-model/), control over when certain features go live, ability to hot fix/cherry pick.
 
 ### Inline documentation.
 
 * Documentation needs to be living and breathing.
 * Revision control.
 * Tools.
-* self documenting.
+* Self documenting.
 
 ### Teach everybody Drupal
 
@@ -80,7 +80,7 @@ Teach the non technical parts of you team the basics of Drupal. If they have an 
 
 Get the same people using the Drupal admin UI as much as possible. Extend it where possible instead of replacing it with a tamed down admin panel.
 
-The Admin views module is an good starting point.
+The [Administration Views](https://www.drupal.org/project/admin_views) module is an good starting point.
 
 # Back-end Patterns
 
@@ -208,7 +208,7 @@ Lazy programmers use reverse engineering.
 * Examine the database.
 * Devel query log.
 * Inspecting alter hooks.
-* APM.
+* Use an APM like [NewRelic](http://newrelic.com/application-monitoring) or [Traceview](https://www.appneta.com/products/traceview/).
 * Reflection API.
 * Objects that implement ```__toString()```, db_select, parts of migrate. etc.
 
@@ -749,8 +749,8 @@ fi
 
 ### Caching with varnish and akamai
 
-* Short TTL on akamai, X-Edge-Control.
-* Longer TTL in varnish.
+* Short TTL on Akamai, X-Edge-Control.
+* Longer TTL in Varnish.
 * Pages can be purge from varnish much easier than akama due to the delay.
 
 ## Full Stack Anti-Patterns.
